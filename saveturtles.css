@@ -1,0 +1,110 @@
+body {
+    background-color: #1aa3ff;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, sans-serif
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    padding: 20px;
+    background-color: white
+}
+
+nav {
+    background-color: #006bb3;
+    padding: 40px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-family: times new roman, sans-serif;
+    padding: 4% 5%;
+    text-decoration: none;
+    font-size: 120%;
+    /*margin: 5% 0% did not work, I wonder what is the code to place a hamburger for when the webpage is resized smaller as in a smartphone*/
+}
+
+nav a:hover {
+    background-color: #00e600;
+    color: #006bb3
+}
+
+nav li {
+    display: inline
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto
+}
+
+section h1,
+section h2 {
+    color: #006bb3;
+    font-family: helvetica;
+    font-size: 250%
+}
+
+section h2 {
+    color: #006bb3;
+    font-size: 200%
+}
+
+footer {
+    background-color: #006bb3;
+    color: white;
+    padding > 15px;
+    text-align: center;
+
+}
+
+.turtle2 {
+    width: 25%;
+    float: right;
+    margin: 10px
+}
+
+.turtle3 {
+    width: 30%;
+    float: left;
+    margin: 10px
+}
+
+.turtlefinal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 70%
+}
+
+.button {
+    background-color: #006bb3;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 30px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a.button:hover {
+    background-color: #00e600;
+    color: #006bb3
+}
