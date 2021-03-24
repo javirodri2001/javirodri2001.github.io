@@ -1,0 +1,119 @@
+body {
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+    border: solid black
+}
+
+nav {
+    background-color: white;
+    border: solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-family: verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%
+}
+
+nav a.home:hover {
+    background-color: #ddd;
+    color: black
+}
+
+nav.autumn {
+    background-color: #E8912E;
+    color: black;
+    border: none
+}
+
+nav a.autumn:hover {
+    background-color: #B66F1E;
+    color: white
+}
+
+nav.winter {
+    background-color: #07CBB3;
+    color: black;
+    border: none
+}
+
+nav a.winter:hover {
+    background-color: #07F7DA;
+    color: black
+}
+
+nav.spring {
+    background-color: #3CB817;
+    color: white;
+    border: none
+}
+
+nav a.spring:hover {
+    background-color: #52F721;
+    color: black
+}
+
+nav.summer {
+    background-color: #FF9B00;
+    color: white;
+    border: none
+}
+
+nav a.summer:hover {
+    background-color: #FFCD00;
+    color: black
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto
+}
+
+section h1 {
+    color: black;
+    font-family: verdana;
+    font-size: 180%
+}
+
+.tree {
+    width: 50%;
+    float: right
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding > 15px;
+    text-align: center;
+
+}
